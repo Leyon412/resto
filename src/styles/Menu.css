@@ -1,0 +1,50 @@
+/* Menu.css */
+h2{
+    padding-top: 50px;
+    text-align: center;
+}
+.menu-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .menu-item {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item div {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .menu-item h4 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .menu-item p {
+    margin-bottom: 5px;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .menu-section {
+      justify-content: center;
+    }
+  
+    .menu-item {
+      width: 100%;
+      max-width: 400px; /* Adjust the max-width as needed */
+    }
+  }
+  
